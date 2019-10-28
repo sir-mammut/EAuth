@@ -3,7 +3,7 @@
 Creates an instance of the Auth class with the provided database connection and config class instance.
 
 **Parameters**:
-* `$dbh` : PDO Database connection
+* `$pdo` : PDO Database connection
 * `$config` : An instance of the Config class
 
 **Returns**:  
