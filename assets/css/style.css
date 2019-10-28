@@ -1,0 +1,186 @@
+/*================================================================================
+	Item Name: E-Auth project
+	Version: 1.0.1
+	Author: Mhizta-Mammut
+	Author URL: www.e-auth.ga
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.main-footer {
+    background: #009688;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main-footer a {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+}
+
+.main-footer a:hover {
+    color: white;
+}
+h5.footer-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0 0 25px;
+    color: #FFF;
+    position: relative;
+}
+.footer-about-us {
+    margin-right: 40px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-about-us a {
+    border: 2px solid #33B6CB;
+    color: #33B6CB;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 4px 12px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.footer-about-us a:hover {
+    border-color: white;
+}
+ul.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 12px;
+}
+.footer-newsletter {
+    margin-top: 23px
+}
+
+.footer-newsletter .form-group {
+    position: relative;
+}
+
+.footer-newsletter .form-control {
+    background: none;
+    height: 44px;
+    border-radius: 22px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    padding-left: 20px;
+    padding-right: 100px;
+    color: #FFF;
+}
+.bottom-footer {
+    background: #00695c ;
+    color: white;
+    line-height: 22px;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.bottom-footer a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom-footer a:hover {
+    color: #FFF;
+}
+ul.bottom-footer-menu {
+    text-align: center;
+}
+
+ul.bottom-footer-menu li {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+}
+
+ul.bottom-footer-menu li + li {
+    margin-left: 30px;
+}
+
+ul.bottom-footer-menu li:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    width: 4px;
+    height: 4px;
+    background: #33B6CB;
+    border-radius: 50%;
+}
+
+ul.bottom-footer-menu li:last-child:after {
+    display: none;
+}
+ul.bottom-footer-menu.for-social {
+    float: right;
+}
+
+ul.bottom-footer-menu.for-social li + li {
+    margin-left: 20px;
+}
+
+ul.bottom-footer-menu.for-social li a {
+    font-size: 16px;
+}
+
+ul.bottom-footer-menu.for-social li:after {
+    display: none;
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+   /* ul.bottom-footer-menu {
+        text-align: left;
+        margin: 10px 0;
+    }
+    ul.bottom-footer-menu.for-social {
+        float: left;
+        margin: 0;
+    }*/
+}
+
+@media (max-width: 479px) {}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(meh.woff2) format("woff2");
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/*========== Toast ==========*/
+.toast-success {color:#2E7D32;font-weight:500;background:rgba(200,230,201,.95);}
+.toast-success a {color:#1B5E20;font-weight:700;}
+.toast-info {color:#1e88e5;font-weight:500;background:rgba(187,222,251,.95);}
+.toast-warning {color:#b71c1c;font-weight:500;background:rgba(255,205,210,.95);}
